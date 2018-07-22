@@ -1,0 +1,9 @@
+pe4259ds
+
+Pin,Type,Name,Side
+1,tristate,RF1,left
+2,ground,GND,left
+3,tristate,RF2,left
+4,tristate,CTRL,right
+5,tristate,RFC,right
+6,power,VDD,right

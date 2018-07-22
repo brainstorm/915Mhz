@@ -1,0 +1,9 @@
+SF2098
+
+Pin,Type,Name,Side
+1,ground,GND,left
+2,tristate,INPUT,left
+3,ground,GND,left
+4,ground,GND,right
+5,tristate,OUTPUT,right
+6,ground,GND,right

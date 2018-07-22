@@ -1,0 +1,26 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,(2017-10-17 revision 537804b)-master*%
+%TF.CreationDate,2018-07-22T21:53:39+10:00*%
+%TF.ProjectId,rf_matching,72665F6D61746368696E672E6B696361,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,46.750*%
+%TJ.B.Size.Y,32.725*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,TopOnly*%
+%TJ.B.SolderMask.Present,No*%
+G04 board design rules*
+%TJ.D.PadToPad.Out,0.200*%
+%TJ.D.PadToTrack.Out,0.200*%
+%TJ.D.TrackToTrack.Out,0.200*%
+%TJ.D.MinLineWidth.Out,0.250*%
+%TJ.D.TrackToRegion.Out,0.508*%
+%TJ.D.RegionToRegion.Out,0.508*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,rf_matching-F.Cu.gbr*%
+%TJ.L."Legend,Top",Positive,rf_matching-F.SilkS.gbr*%
+M02*

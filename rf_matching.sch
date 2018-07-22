@@ -46,17 +46,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SF2098 U2
-U 1 1 5B4ACEE6
-P 6870 4250
-F 0 "U2" H 7470 3860 60  0000 C CNN
-F 1 "SF2098" H 7470 3966 60  0000 C CNN
-F 2 "SON120P300X300X110-6N:SON120P300X300X110-6N" H 6870 4250 60  0001 C CNN
-F 3 "" H 6870 4250 60  0001 C CNN
-	1    6870 4250
-	-1   0    0    1   
-$EndComp
-$Comp
 L Conn_Coaxial J1
 U 1 1 5B4ACFC6
 P 3010 3680
@@ -200,7 +189,7 @@ F 3 "" H 5030 4760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5670 4150 5030 4150
+	5030 4150 7770 4150
 Wire Wire Line
 	4030 4150 3560 4150
 Wire Wire Line
@@ -216,16 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	3010 3480 2090 3480
 Connection ~ 2090 4050
-Wire Wire Line
-	6870 4580 6870 4250
-Wire Wire Line
-	3560 4580 6870 4580
-Connection ~ 3560 4580
-Wire Wire Line
-	5670 4250 5540 4250
-Wire Wire Line
-	5540 4250 5540 4580
-Connection ~ 5540 4580
 Wire Wire Line
 	5030 4050 5400 4050
 Wire Wire Line
@@ -259,8 +238,6 @@ F 3 "" H 7870 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8230 4150 7970 4150
-Wire Wire Line
-	7770 4150 6870 4150
 $Comp
 L C_Small C2
 U 1 1 5B5135C2

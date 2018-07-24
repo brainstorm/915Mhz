@@ -2,7 +2,7 @@
 
 (general
   (thickness 1.6)
-  (drawings 10)
+  (drawings 9)
   (tracks 40)
   (zones 0)
   (modules 12)
@@ -36,7 +36,7 @@
 
 (general
   (thickness 1.6)
-  (drawings 10)
+  (drawings 9)
   (tracks 40)
   (zones 0)
   (modules 12)
@@ -93,7 +93,7 @@
   (pad_size 1.524 1.524)
   (pad_drill 0.762)
   (pad_to_mask_clearance 0.2)
-  (aux_axis_origin 153.9 110.225)
+  (aux_axis_origin 134.825 129.3)
   (visible_elements FFFFFF7F)
   (pcbplotparams
     (layerselection 0x00020_7fffffff)
@@ -725,7 +725,6 @@
   (gr_text ANT (at 187.925 80.875) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (target plus (at 153.9 110.225) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_text RFI (at 163.775 81.975) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

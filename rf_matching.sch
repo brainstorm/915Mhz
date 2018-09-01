@@ -291,4 +291,52 @@ Wire Wire Line
 	3320 4050 3320 3960
 Wire Wire Line
 	3320 3680 3320 3760
+$Comp
+L Conn_Coaxial J7
+U 1 1 5B8AD0CE
+P 5580 6660
+F 0 "J7" V 5817 6590 50  0000 C CNN
+F 1 "PCB_LOSS_OUT" V 5726 6590 50  0000 C CNN
+F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 5580 6660 50  0001 C CNN
+F 3 "" H 5580 6660 50  0001 C CNN
+	1    5580 6660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J6
+U 1 1 5B8AD184
+P 4220 6660
+F 0 "J6" V 4457 6590 50  0000 C CNN
+F 1 "PCB_LOSS_IN" V 4366 6590 50  0000 C CNN
+F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 4220 6660 50  0001 C CNN
+F 3 "" H 4220 6660 50  0001 C CNN
+	1    4220 6660
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4370 6660 5430 6660
+$Comp
+L GND #PWR06
+U 1 1 5B8AD8F5
+P 4220 6460
+F 0 "#PWR06" H 4220 6210 50  0001 C CNN
+F 1 "GND" H 4225 6287 50  0000 C CNN
+F 2 "" H 4220 6460 50  0001 C CNN
+F 3 "" H 4220 6460 50  0001 C CNN
+	1    4220 6460
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5B8ADA42
+P 5580 6860
+F 0 "#PWR07" H 5580 6610 50  0001 C CNN
+F 1 "GND" H 5585 6687 50  0000 C CNN
+F 2 "" H 5580 6860 50  0001 C CNN
+F 3 "" H 5580 6860 50  0001 C CNN
+	1    5580 6860
+	1    0    0    -1  
+$EndComp
+Text Notes 3940 7450 0    60   ~ 0
+”This transmission line can be used to \nestimate the loss of the PCB over the \nenvironmental conditions being evaluated”
 $EndSCHEMATC

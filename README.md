@@ -34,3 +34,9 @@ Here's how each of those look like at the moment of writing this, let's play "sp
 </p>
 
 Now, as with the [Instructables Carvey Board project](https://github.com/brainstorm/carvey_board), I've generated some G-Code (under the **homefab** subdirectory) with [FlatCam](http://flatcam.org/) to carve those board at home, wish me luck with the spectrum analyzers and followup testing!
+
+Alternatively, there's a .zip under homefab, containing the ready-to-send gerbers to i.e Seed Studios or any other PCB manufacturer. Here's the latest iteration of the rf matching board on `master`:
+
+<p align="center">
+<img src='img/rf_switch_saw_peregrine-like.png'/>
+</p>

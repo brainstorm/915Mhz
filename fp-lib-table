@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name SON120P300X300X110-6N)(type Legacy)(uri "$(KIPRJMOD)/SON120P300X300X110-6N.mod")(options "")(descr ""))
+  (lib (name SMA_conn_novias)(type KiCad)(uri "$(KIPRJMOD)/SMA_conn_novias.pretty")(options "")(descr ""))
 )

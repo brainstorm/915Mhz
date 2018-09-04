@@ -79,17 +79,6 @@ F 3 "" H 3020 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_Coaxial J3
-U 1 1 5B4AD06B
-P 5400 3560
-F 0 "J3" V 5637 3490 50  0000 C CNN
-F 1 "CTRL" V 5546 3490 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 5400 3560 50  0001 C CNN
-F 3 "" H 5400 3560 50  0001 C CNN
-	1    5400 3560
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Conn_Coaxial J4
 U 1 1 5B4AD0BF
 P 8380 4150
@@ -156,17 +145,6 @@ F 3 "" H 7410 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_Coaxial J5
-U 1 1 5B4AF99C
-P 4980 5100
-F 0 "J5" V 5217 5030 50  0000 C CNN
-F 1 "3V3" V 5126 5030 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 4980 5100 50  0001 C CNN
-F 3 "" H 4980 5100 50  0001 C CNN
-	1    4980 5100
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR03
 U 1 1 5B4AFA81
 P 4630 5350
@@ -229,21 +207,17 @@ Connection ~ 5540 4580
 Wire Wire Line
 	5030 4050 5400 4050
 Wire Wire Line
-	5600 3560 7410 3560
+	5400 3560 7410 3560
 Wire Wire Line
 	7410 3560 7410 3800
 Wire Wire Line
-	4780 5100 4630 5100
+	4630 5100 4950 5100
 Wire Wire Line
 	4630 5100 4630 5350
 Wire Wire Line
-	5030 4950 4980 4950
-Wire Wire Line
 	5400 4050 5400 3970
 Wire Wire Line
-	5400 3710 5400 3770
-Wire Wire Line
-	5030 4950 5030 4860
+	5400 3660 5400 3770
 Wire Wire Line
 	5030 4660 5030 4250
 $Comp
@@ -339,4 +313,32 @@ F 3 "" H 5580 6860 50  0001 C CNN
 $EndComp
 Text Notes 3940 7450 0    60   ~ 0
 ”This transmission line can be used to \nestimate the loss of the PCB over the \nenvironmental conditions being evaluated”
+$Comp
+L Conn_01x02 J3
+U 1 1 5B8D137C
+P 5200 3660
+F 0 "J3" H 5120 3335 50  0000 C CNN
+F 1 "CTRL" H 5120 3426 50  0000 C CNN
+F 2 "KiCad/Connectors_Molex.pretty:Molex_KK-6410-02_02x2.54mm_Straight" H 5200 3660 50  0001 C CNN
+F 3 "" H 5200 3660 50  0001 C CNN
+	1    5200 3660
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 5100 4950 5050
+Wire Wire Line
+	4950 5050 5030 5050
+$Comp
+L Conn_01x02 J5
+U 1 1 5B8D1712
+P 5230 4950
+F 0 "J5" H 5310 4942 50  0000 L CNN
+F 1 "VDD" H 5310 4851 50  0000 L CNN
+F 2 "KiCad/Connectors_Molex.pretty:Molex_KK-6410-02_02x2.54mm_Straight" H 5230 4950 50  0001 C CNN
+F 3 "" H 5230 4950 50  0001 C CNN
+	1    5230 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5030 4860 5030 4950
 $EndSCHEMATC

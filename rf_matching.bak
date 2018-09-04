@@ -62,7 +62,7 @@ U 1 1 5B4ACFC6
 P 3010 3680
 F 0 "J1" H 3110 3564 50  0000 L CNN
 F 1 "RFI" H 3110 3655 50  0000 L CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 3010 3680 50  0001 C CNN
+F 2 "SMA_conn_novias:Molex_SMA_Jack_Edge_Mount" H 3010 3680 50  0001 C CNN
 F 3 "" H 3010 3680 50  0001 C CNN
 	1    3010 3680
 	-1   0    0    1   
@@ -73,21 +73,10 @@ U 1 1 5B4AD035
 P 3020 4250
 F 0 "J2" H 3160 4320 50  0000 C CNN
 F 1 "RFO" H 3190 4430 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 3020 4250 50  0001 C CNN
+F 2 "SMA_conn_novias:Molex_SMA_Jack_Edge_Mount" H 3020 4250 50  0001 C CNN
 F 3 "" H 3020 4250 50  0001 C CNN
 	1    3020 4250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_Coaxial J3
-U 1 1 5B4AD06B
-P 5400 3560
-F 0 "J3" V 5637 3490 50  0000 C CNN
-F 1 "CTRL" V 5546 3490 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 5400 3560 50  0001 C CNN
-F 3 "" H 5400 3560 50  0001 C CNN
-	1    5400 3560
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Conn_Coaxial J4
@@ -95,7 +84,7 @@ U 1 1 5B4AD0BF
 P 8380 4150
 F 0 "J4" H 8479 4126 50  0000 L CNN
 F 1 "ANT" H 8479 4035 50  0000 L CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 8380 4150 50  0001 C CNN
+F 2 "SMA_conn_novias:Molex_SMA_Jack_Edge_Mount" H 8380 4150 50  0001 C CNN
 F 3 "" H 8380 4150 50  0001 C CNN
 	1    8380 4150
 	1    0    0    -1  
@@ -154,17 +143,6 @@ F 2 "" H 7410 3800 50  0001 C CNN
 F 3 "" H 7410 3800 50  0001 C CNN
 	1    7410 3800
 	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_Coaxial J5
-U 1 1 5B4AF99C
-P 4980 5100
-F 0 "J5" V 5217 5030 50  0000 C CNN
-F 1 "3V3" V 5126 5030 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 4980 5100 50  0001 C CNN
-F 3 "" H 4980 5100 50  0001 C CNN
-	1    4980 5100
-	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR03
@@ -229,21 +207,17 @@ Connection ~ 5540 4580
 Wire Wire Line
 	5030 4050 5400 4050
 Wire Wire Line
-	5600 3560 7410 3560
+	5400 3560 7410 3560
 Wire Wire Line
 	7410 3560 7410 3800
 Wire Wire Line
-	4780 5100 4630 5100
+	4630 5100 4950 5100
 Wire Wire Line
 	4630 5100 4630 5350
 Wire Wire Line
-	5030 4950 4980 4950
-Wire Wire Line
 	5400 4050 5400 3970
 Wire Wire Line
-	5400 3710 5400 3770
-Wire Wire Line
-	5030 4950 5030 4860
+	5400 3660 5400 3770
 Wire Wire Line
 	5030 4660 5030 4250
 $Comp
@@ -292,23 +266,23 @@ Wire Wire Line
 Wire Wire Line
 	3320 3680 3320 3760
 $Comp
-L Conn_Coaxial J?
+L Conn_Coaxial J7
 U 1 1 5B8AD0CE
 P 5580 6660
-F 0 "J?" V 5817 6590 50  0000 C CNN
+F 0 "J7" V 5817 6590 50  0000 C CNN
 F 1 "PCB_LOSS_OUT" V 5726 6590 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 5580 6660 50  0001 C CNN
+F 2 "SMA_conn_novias:Molex_SMA_Jack_Edge_Mount" H 5580 6660 50  0001 C CNN
 F 3 "" H 5580 6660 50  0001 C CNN
 	1    5580 6660
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_Coaxial J?
+L Conn_Coaxial J6
 U 1 1 5B8AD184
 P 4220 6660
-F 0 "J?" V 4457 6590 50  0000 C CNN
+F 0 "J6" V 4457 6590 50  0000 C CNN
 F 1 "PCB_LOSS_IN" V 4366 6590 50  0000 C CNN
-F 2 "KiCad/Connectors_Molex.pretty:Molex_SMA_Jack_Edge_Mount" H 4220 6660 50  0001 C CNN
+F 2 "SMA_conn_novias:Molex_SMA_Jack_Edge_Mount" H 4220 6660 50  0001 C CNN
 F 3 "" H 4220 6660 50  0001 C CNN
 	1    4220 6660
 	-1   0    0    1   
@@ -316,10 +290,10 @@ $EndComp
 Wire Wire Line
 	4370 6660 5430 6660
 $Comp
-L GND #PWR?
+L GND #PWR06
 U 1 1 5B8AD8F5
 P 4220 6460
-F 0 "#PWR?" H 4220 6210 50  0001 C CNN
+F 0 "#PWR06" H 4220 6210 50  0001 C CNN
 F 1 "GND" H 4225 6287 50  0000 C CNN
 F 2 "" H 4220 6460 50  0001 C CNN
 F 3 "" H 4220 6460 50  0001 C CNN
@@ -327,10 +301,10 @@ F 3 "" H 4220 6460 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR07
 U 1 1 5B8ADA42
 P 5580 6860
-F 0 "#PWR?" H 5580 6610 50  0001 C CNN
+F 0 "#PWR07" H 5580 6610 50  0001 C CNN
 F 1 "GND" H 5585 6687 50  0000 C CNN
 F 2 "" H 5580 6860 50  0001 C CNN
 F 3 "" H 5580 6860 50  0001 C CNN
@@ -339,4 +313,32 @@ F 3 "" H 5580 6860 50  0001 C CNN
 $EndComp
 Text Notes 3940 7450 0    60   ~ 0
 ”This transmission line can be used to \nestimate the loss of the PCB over the \nenvironmental conditions being evaluated”
+$Comp
+L Conn_01x02 J3
+U 1 1 5B8D137C
+P 5200 3660
+F 0 "J3" H 5120 3335 50  0000 C CNN
+F 1 "CTRL" H 5120 3426 50  0000 C CNN
+F 2 "KiCad/Connectors_Molex.pretty:Molex_KK-6410-02_02x2.54mm_Straight" H 5200 3660 50  0001 C CNN
+F 3 "" H 5200 3660 50  0001 C CNN
+	1    5200 3660
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 5100 4950 5050
+Wire Wire Line
+	4950 5050 5030 5050
+$Comp
+L Conn_01x02 J5
+U 1 1 5B8D1712
+P 5230 4950
+F 0 "J5" H 5310 4942 50  0000 L CNN
+F 1 "VDD" H 5310 4851 50  0000 L CNN
+F 2 "KiCad/Connectors_Molex.pretty:Molex_KK-6410-02_02x2.54mm_Straight" H 5230 4950 50  0001 C CNN
+F 3 "" H 5230 4950 50  0001 C CNN
+	1    5230 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5030 4860 5030 4950
 $EndSCHEMATC

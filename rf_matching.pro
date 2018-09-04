@@ -1,4 +1,4 @@
-update=Sunday, 15 July 2018 'pmt' 14:45:13
+update=Monday, 03 September 2018 'pmt' 12:29:22
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=/Users/romanvg/dev/rf_matching/kipart
+LibDir=/Users/romanvg/dev/rf_matching/kipart;/Users/romanvg/dev/rf_matching/SMA_conn_novias.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device

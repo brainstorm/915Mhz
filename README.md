@@ -8,6 +8,8 @@ This is an experiment with a 915Mhz LoRa module and SAW filters as a substitute 
 <img src='img/EK4259-02.jpg'/>
 </p>
 
+And indeed, [AppliedCarbon from OSHPark also thought so and designed a smaller PCB](https://oshpark.com/shared_projects/2MRloEFC).
+
 Gold tracks and pads, many vias and proper RF engineering, sure, but $100 plus shipping? Let's see how the homemade way works in comparison? On the **`master`** branch of this repository, I'm putting together a board with the RF switch and the SAW filter (will be using a 915 Mhz [sf2098e "low insertion loss" SAW filter](https://wireless.murata.com/RFM/data/sf2098e.pdf), no frills design for now. I might put the vias in place if needed in the future and compare performance/loss and the accompanying [S parameters](https://en.wikipedia.org/wiki/Scattering_parameters).
 
 <p align="center">
